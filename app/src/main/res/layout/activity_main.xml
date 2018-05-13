@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:visibility="visible">
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Фамилия"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Имя"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/surName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Отчество"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Пароль"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send" />
+
+    <TextView
+        android:id="@+id/Gps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/provider_gps"
+        android:textAlignment="viewStart"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/enabledGPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/gpsLat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/gpsLon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/provider_network"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/enabledNetwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/networkLat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/networkLon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/geolocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLocationSettings"
+        android:text="@string/geolocation" />
+</LinearLayout>
